@@ -11,4 +11,4 @@
 ## ## Package / thunar
 ##
 
-thunar
+Thunar
