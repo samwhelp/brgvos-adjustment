@@ -43,6 +43,7 @@
 | Link | GitHub |
 | ---- | ------ |
 | [VoidLinux Adjustment](https://samwhelp.github.io/voidlinux-adjustment/) | [GitHub](https://github.com/samwhelp/voidlinux-adjustment) |
+| [Pardus Adjustment](https://samwhelp.github.io/pardus-adjustment/) | [GitHub](https://github.com/samwhelp/pardus-adjustment) |
 | [Debian Adjustment](https://samwhelp.github.io/debian-adjustment/) | [GitHub](https://github.com/samwhelp/debian-adjustment) |
 | [MxLinux Adjustment](https://samwhelp.github.io/mxlinux-adjustment/) | [GitHub](https://github.com/samwhelp/mxlinux-adjustment) |
 | [EznixOS Adjustment](https://samwhelp.github.io/eznixos-adjustment/) | [GitHub](https://github.com/samwhelp/eznixos-adjustment) |
