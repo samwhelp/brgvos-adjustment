@@ -64,7 +64,7 @@ main_package_install () {
 	# sudo pacman -Sy --needed $(main_package_find_list)
 	# pamac install $(main_package_find_list)
 	# pamac build $(main_package_find_list)
-	yay -Sy --needed $(main_package_find_list)
+	# yay -Sy --needed $(main_package_find_list)
 
 
 	##
@@ -76,15 +76,16 @@ main_package_install () {
 	# sudo dnf install $(main_package_find_list)
 
 
-	return 0
 
-}
+	##
+	## ## Void Linux
+	##
 
-main_package_install_prepare () {
+	# sudo xbps-install $(cat package-list.txt)
+	# sudo xbps-install $(main_package_find_list_raw)
+	sudo xbps-install $(main_package_find_list)
 
-	sudo pacman -Sy --needed debugedit libarchive tar
 
-    return 0
 }
 
 ##
@@ -97,8 +98,6 @@ main_package_install_prepare () {
 ##
 
 __main__ () {
-
-    main_package_install_prepare
 
 	main_package_install
 
